@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id" ng-app="donorApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - Donor Darah</title>
+    <link rel="icon" type="image/png" href="img/logo/logoweb.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body ng-controller="MainController">
+    <!-- Profile Section -->
+    <section id="profile" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Profil Pengguna</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Nama         : {{user.name}}</h5>
+                            <p class="card-text">Email          : {{user.email}}</p>
+                            <p class="card-text">Golongan Darah : {{user.bloodGroup}}</p>
+                            <p class="card-text">Pesan          : {{user.message}}</p>
+                            <a href="" class="btn btn-primary">Edit Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
