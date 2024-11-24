@@ -23,7 +23,7 @@ app.controller('MainController', function($scope, $window) {
         name: 'Test',
         email: '1234@test.com',
         bloodGroup: 'A',
-        message: 'Saya siap mendonorkan darah!'
+        message: 'Golongan darah Saya A, siap mendonorkan darah!'
     };
     $scope.submitForm = function() {
         alert('Terima kasih, ' + $scope.formData.name + ' telah mendaftar sebagai pendonor darah!');
@@ -36,6 +36,7 @@ app.controller('MainController', function($scope, $window) {
         { src: 'image3.jpg', alt: 'Kegiatan donor darah 3' }
     ];
 
+    // logout
     function confirmLogout() {
         const userName = "Nama Pengguna";
         const confirmation = confirm(`Logout dari ${userName}?`);
