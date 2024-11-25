@@ -31,9 +31,9 @@ app.controller('MainController', function($scope, $window) {
     };
 
     $scope.gallery = [
-        { src: 'image1.jpg', alt: 'Kegiatan donor darah 1' },
-        { src: 'image2.jpg', alt: 'Kegiatan donor darah 2' },
-        { src: 'image3.jpg', alt: 'Kegiatan donor darah 3' }
+        { src: 'https://i.pinimg.com/236x/94/19/a9/9419a9c8334eb3f95deb1018984ccd90.jpg', alt: 'Kegiatan donor darah 1' },
+        { src: 'https://i.pinimg.com/236x/d3/0b/ae/d30bae8fbe0ce1bc675de2e05afef1ab.jpg', alt: 'Kegiatan donor darah 2' },
+        { src: 'https://i.pinimg.com/736x/92/f4/42/92f442ad1ae17336c5b63a1479e2debd.jpg', alt: 'Kegiatan donor darah 3' }
     ];
 
     // logout
